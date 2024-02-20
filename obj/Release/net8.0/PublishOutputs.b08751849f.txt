@@ -1,0 +1,8 @@
+D:\DotnetProject\Numbers.txt
+D:\DotnetProject\PortaOneTask.exe
+D:\DotnetProject\PortaOneTask.dll
+D:\DotnetProject\PortaOneTask.deps.json
+D:\DotnetProject\PortaOneTask.runtimeconfig.json
+D:\DotnetProject\PortaOneTask.pdb
+D:\DotnetProject\Noemax.Compression.Net4.Trial.dll
+D:\DotnetProject\ICSharpCode.SharpZipLib.dll

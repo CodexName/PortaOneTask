@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PortaOneTask/1.0.0": {
+        "dependencies": {
+          "Noemax.Compression": "17.301.0",
+          "SharpZipLib": "1.4.2"
+        },
+        "runtime": {
+          "PortaOneTask.dll": {}
+        }
+      },
+      "Noemax.Compression/17.301.0": {
+        "runtime": {
+          "lib/net40/Noemax.Compression.Net4.Trial.dll": {
+            "assemblyVersion": "17.301.0.0",
+            "fileVersion": "17.301.0.0"
+          }
+        }
+      },
+      "SharpZipLib/1.4.2": {
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.4.2.13",
+            "fileVersion": "1.4.2.13"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PortaOneTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Noemax.Compression/17.301.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9LMULo+5LyYPzRp3VEctoFUNl28KLI3yRE6D1D/XxTXweC9uwKgtq8NImyBiYlVhHIp/1uTNn7QI4d+4+4JOQA==",
+      "path": "noemax.compression/17.301.0",
+      "hashPath": "noemax.compression.17.301.0.nupkg.sha512"
+    },
+    "SharpZipLib/1.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "path": "sharpziplib/1.4.2",
+      "hashPath": "sharpziplib.1.4.2.nupkg.sha512"
+    }
+  }
+}

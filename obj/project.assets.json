@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Noemax.Compression/17.301.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Noemax.Compression.Net4.Trial.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Noemax.Compression.Net4.Trial.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Noemax.Compression/17.301.0": {
+      "sha512": "9LMULo+5LyYPzRp3VEctoFUNl28KLI3yRE6D1D/XxTXweC9uwKgtq8NImyBiYlVhHIp/1uTNn7QI4d+4+4JOQA==",
+      "type": "package",
+      "path": "noemax.compression/17.301.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Noemax.Compression.Android.Trial.dll",
+        "lib/MonoAndroid10/Noemax.Compression.Android.Trial.xml",
+        "lib/Xamarin.iOS10/Noemax.Compression.x64.iOS.Trial.dll",
+        "lib/Xamarin.iOS10/Noemax.Compression.x64.iOS.Trial.xml",
+        "lib/net20-cf/Noemax.Compression.CF.Trial.dll",
+        "lib/net20-cf/Noemax.Compression.CF.Trial.xml",
+        "lib/net20/Noemax.Compression.Trial.dll",
+        "lib/net20/Noemax.Compression.Trial.xml",
+        "lib/net40/Noemax.Compression.Net4.Trial.dll",
+        "lib/net40/Noemax.Compression.Net4.Trial.xml",
+        "lib/sl3-wp/Noemax.Compression.WP7.Trial.dll",
+        "lib/sl3-wp/Noemax.Compression.WP7.Trial.xml",
+        "lib/sl5/Noemax.Compression.SL5.Trial.dll",
+        "lib/sl5/Noemax.Compression.SL5.Trial.xml",
+        "noemax.compression.17.301.0.nupkg.sha512",
+        "noemax.compression.nuspec"
+      ]
+    },
+    "SharpZipLib/1.4.2": {
+      "sha512": "yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "type": "package",
+      "path": "sharpziplib/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/sharpziplib-nuget-256x256.png",
+        "lib/net6.0/ICSharpCode.SharpZipLib.dll",
+        "lib/net6.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/net6.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.4.2.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Noemax.Compression >= 17.301.0",
+      "SharpZipLib >= 1.4.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\illan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\DotnetProject\\PortaOneTask\\PortaOneTask.csproj",
+      "projectName": "PortaOneTask",
+      "projectPath": "D:\\DotnetProject\\PortaOneTask\\PortaOneTask.csproj",
+      "packagesPath": "C:\\Users\\illan\\.nuget\\packages\\",
+      "outputPath": "D:\\DotnetProject\\PortaOneTask\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\illan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Noemax.Compression": {
+            "target": "Package",
+            "version": "[17.301.0, )"
+          },
+          "SharpZipLib": {
+            "target": "Package",
+            "version": "[1.4.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Noemax.Compression 17.301.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Noemax.Compression",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

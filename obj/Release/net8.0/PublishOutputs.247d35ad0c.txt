@@ -1,0 +1,8 @@
+C:\Users\illan\OneDrive\Рабочий стол\Numbers.txt
+C:\Users\illan\OneDrive\Рабочий стол\PortaOneTask.exe
+C:\Users\illan\OneDrive\Рабочий стол\PortaOneTask.dll
+C:\Users\illan\OneDrive\Рабочий стол\PortaOneTask.deps.json
+C:\Users\illan\OneDrive\Рабочий стол\PortaOneTask.runtimeconfig.json
+C:\Users\illan\OneDrive\Рабочий стол\PortaOneTask.pdb
+C:\Users\illan\OneDrive\Рабочий стол\Noemax.Compression.Net4.Trial.dll
+C:\Users\illan\OneDrive\Рабочий стол\ICSharpCode.SharpZipLib.dll
